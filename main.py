@@ -97,7 +97,7 @@ def get_stock_data(symbol: str, db: Session = Depends(get_db)):
         .all()
     
     if not data:
-        raise HTTPException(status_code=4.04, detail=f"No data found for symbol {symbol}")
+        raise HTTPException(status_code=404, detail=f"No data found for symbol {symbol}")
     return data
 
 @app.get("/summary/{symbol}", summary="Get 52-Week Summary")
