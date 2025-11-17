@@ -1,9 +1,7 @@
 StockSight: A Stock Data Intelligence Platform
 This project is a full-stack financial data platform built for the JarNox internship assignment. It features a high-performance backend API built with FastAPI and an interactive frontend dashboard built with Streamlit.
-Live Demo Links
-
-Live Dashboard: https://ibm07-stocksight-dashboard-uulqpg.streamlit.app/
-Live API Docs (Swagger UI): https://stocksight-imzd.onrender.com
+Live Demo Link:-
+https://ibm07-stocksight-dashboard-uulqpg.streamlit.app/
 
 Key Features:-
 1)High-Performance Backend: Built with FastAPI to provide a fast, async, and scalable API.
