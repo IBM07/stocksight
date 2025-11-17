@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # --- API Base URL ---
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://stocksight-imzd.onrender.com/"
 
 # --- Helper Function to Fetch Data ---
 @st.cache_data(ttl=600) # Cache data for 10 minutes
